@@ -1,12 +1,18 @@
 {
   "name": "u2-typescript-leonardo-lezcano",
   "version": "1.0.0",
+  "description": "Proyecto de TypeScript con varios ejercicios prácticos",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.4",
+    "ts-node": "^10.9.1"
+  },
+  "author": "Leonardo Lezcano",
+  "license": "ISC"
 }
