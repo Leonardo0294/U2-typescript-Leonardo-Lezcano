@@ -1,7 +1,6 @@
-// 1-basic-types.ts
+let age: number = 30;
+let fullName: string = 'John Doe'; 
 
-// Declara una variable de tipo número
-let age: number = 25;
+console.log(`Age: ${age}`);
+console.log(`Full Name: ${fullName}`);
 
-// Declara una variable de tipo string con un nombre diferente
-let personName: string = 'Juan';
